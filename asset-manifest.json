@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.5a2533b4.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.9b74855b.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.9b74855b.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.361111c3.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.361111c3.js.map",
+    "static/js/2.af8ceada.chunk.js": "/shopping-cart/static/js/2.af8ceada.chunk.js",
+    "static/js/2.af8ceada.chunk.js.map": "/shopping-cart/static/js/2.af8ceada.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.5a2533b4.chunk.css.map": "/shopping-cart/static/css/main.5a2533b4.chunk.css.map",
+    "static/js/2.af8ceada.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.af8ceada.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/shopping-cart/static/media/Staatliches-Regular.a7f803c1.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.361111c3.js",
+    "static/js/2.af8ceada.chunk.js",
+    "static/css/main.5a2533b4.chunk.css",
+    "static/js/main.9b74855b.chunk.js"
+  ]
+}
