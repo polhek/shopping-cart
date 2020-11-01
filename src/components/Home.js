@@ -8,7 +8,6 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       timeClick();
-      console.log('This will run every minute!');
     }, 30000);
     return () => clearInterval(interval);
   }, []);
@@ -20,8 +19,10 @@ const Home = () => {
   const clockTime = () => {
     let hours = clock.getHours();
     let minutes = clock.getMinutes();
-    let day = clock.getDay() - 1;
+    let day = clock.getDay();
+
     let days = [
+      'Sunday',
       'Monday',
       'Tuesday',
       'Wednesday',
@@ -34,12 +35,10 @@ const Home = () => {
       minutes = `0${minutes}`;
     }
     let clockTime = `${days[day]}, ${hours}:${minutes}`;
-    console.log(clockTime);
     setTime(clockTime);
   };
   useEffect(() => {
     clockTime();
-    console.log('shiats');
   }, [clock]);
 
   const linkStyle = {

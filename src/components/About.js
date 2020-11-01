@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-import { Icon } from 'leaflet';
+import { Map, Marker, TileLayer } from 'react-leaflet';
 
 const About = () => {
   const [coordinateX, setCoordinateX] = useState('');
@@ -35,7 +34,7 @@ const About = () => {
         </p>
         <h3>Contact us</h3>
         <p>
-          Phone number: <a href="tel:004321943214">+ (432) 194 3214</a>{' '}
+          Phone number: <a href="tel:004321943214">+ (432) 194 3214</a>
         </p>
         <p>
           Random mail: <a href="mailto: abc@example.com">dfsdfsd@sdfdsf.com</a>
